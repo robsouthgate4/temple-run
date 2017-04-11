@@ -12,6 +12,9 @@ var loadState = {
 
         //Load your images, spritesheets, bitmaps...
         game.load.image('boiler-logo', 'assets/img/boilerplate-logo.png');
+        game.load.image('background', 'assets/img/scenery/bg.png');
+        // Character load
+        game.load.spritesheet('hero', 'assets/img/character/character.png', 150, 133);
 
 
         //Load your sounds, efx, music...
